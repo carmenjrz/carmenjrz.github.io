@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding:0px;
+}
+
+.introduccion{
+    margin:0 auto;
+    width: 80%;
+    padding: 5px;
+}
+
+.introduccion h1{
+    color: rgb(210, 131, 247);
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.introduccion p{
+    color: rgb(244, 220, 7);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.fluida{
+    width: 100%;
+}
+
+.seccion{
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.categoria{
+    margin: 0px auto;
+    width: 90%;  
+}
+
+.bg-verde {
+    background-color: rgb(176, 247, 11);
+}
+
+.cat1-verde{
+    color: rgb(23, 130, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.ficha li{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.ficha {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ficha img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-marco{
+    background-color: rgb(250, 250, 241);
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius:10px;
+    width: 100%;
+}
+
+.ficha p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.descripcion{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.bg-magenta{
+    background-color: rgb(218, 43, 186);
+}
+
+.cat1-magenta{
+    color: rgb(255, 196, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.bg-azul{
+    background-color: rgb(2, 238, 255);
+}
+
+.cat1-azul{
+    color: rgb(24, 137, 137);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(238, 145, 6);
+}
+h1{
+    color: rgb(183, 238, 238);
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font
+}
+
+
+p{ 
+    color: rgb(179, 26, 115);
+}
+h2{
+    color: rgb(157, 221, 242);
+    font-family:Arial, Helvetica, sans-serif; 
+    text-shadow: black 10px;
+}
+span.subrayado{
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.contenedor{
+    width: 60%;
+    min-width: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.con-fondo{
+    height: 300px;
+    background-image: url(Poster_Frame_Mockup_1.jpg);
+    background-size: cover;
+}
+ 
+.con-fondo h1{
+    color: rgb(187, 243, 123);
+}
+/*CAJA INDICADOR*/
+
+.indicador{
+height: 20px;
+width: 10px;
+background-color: #000;
+transition: all 1s 500ms;
+}
+
+.ind1.visible, .ind2.visible{
+    width: 100%;
+    transform: rotate(360deg);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+
+/*H2 SECCIONES*/
+
+h2{
+    color: #ddd;
+    transition: all 1s 1s;
+}
+.seccion1.visible {
+    color: #000;
+
+
+}.seccion2.visible {
+    color: #000;
+
+}
+

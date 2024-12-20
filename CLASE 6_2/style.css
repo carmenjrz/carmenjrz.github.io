@@ -1,0 +1,48 @@
+html{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.full{
+    width: 100%;
+    height: 100vh;
+}
+
+.verde{
+    background-color: #8d8;
+}
+
+.hero{
+    background-image: url("la\ raiz.png");
+    background-size: cover;
+}
+
+.contenedor{
+    width: 60%;
+    min-width: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.resaltado {
+padding: 1rem;
+background-color: #ddd;
+
+}
+
+.resaltado h3{
+    font-size: 2;
+}
