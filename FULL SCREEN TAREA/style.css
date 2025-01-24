@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    font-family: "Courier Prime";
+}
+
+header{
+    height: 10vh;
+    background-color: rgb(7, 42, 200);
+    color: rgb(188, 237, 9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/********** CABECERA
+**************************/
+a{
+    color: rgb(188, 237, 9);
+    text-decoration: none;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.inicio {
+    height: 140px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 800px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 60px;
+
+}
+
+
+/********** MAIN
+**************************/  
+
+.principal {
+    position: relative;
+    height: 80vh; 
+    background-image: url("Poster_Frame_Mockup_1.jpg");
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.veladura {
+    position: absolute; 
+    width: 100%;
+    height: 100%; /* Cubre toda la altura */
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.columnas-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    width: 70vw;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px; 
+    border-radius: 15px; 
+    background-color: rgba(255, 255, 255, 0.75); 
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h2,h3{
+    color: rgb(7, 42, 200);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resaltado{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(7, 42, 200);
+}
+
+/********** FOOTER
+**************************/  
+footer {
+    height: 10vh;
+    background-color: rgb(7, 42, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+ul {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+}
+
+.redes {
+    height: 60px;
+    width: auto; 
+}
+
+/********** COMO PARTICIPAR
+**************************/  
+.participar {
+    position: relative;
+    height: 80vh; 
+    background-image: url("Bus_Stop_Mockup.png");
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.columnas-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    width: 70vw;
+    padding: 20px;
+}
+
+.participar h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translateX(-50%);
+    color:rgb(188, 237, 9);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    }
+
+    /********** BOLSAS
+**************************/  
+.bolsas {
+    position: relative;
+    height: 80vh; 
+    background-image: url("bolsas.png");
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.columnas-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    width: 70vw;
+    padding: 20px;
+}
+
+.bolsas h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+    transform: translateX(-50%);
+    color:rgb(188, 237, 9);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+    
+.poster {
+    width: 100%;
+    height: auto;
+    max-width: 200px; 
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+   /********** RECOMPENSAS
+**************************/  
+
+.recompensas {
+    position: relative;
+    height: 80vh; 
+    background-image: url("Bus_Stop_Mockup.png");
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.columnas-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    width: 70vw;
+    padding: 20px;
+}
+.recompensas h2{
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+    transform: translateX(-50%);
+    color:rgb(188, 237, 9);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.premios {
+    width: 100%;
+    height: auto;
+    max-width: 200px; 
+    margin-bottom: 20px;
+    align-items: center;
+}
+
