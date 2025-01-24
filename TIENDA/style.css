@@ -1,0 +1,53 @@
+
+body {
+    font-family: "Una";
+}
+.bg-forest{
+    background-color: #1e4925;
+}
+
+.bg-grinch{
+    background-color: #4a7a51;
+}
+
+h1, h2, h5 {
+    font-family: "Poppins" ;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+nav a {
+    font-family: "Poppins";
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4a7a51;
+}
+
+.card {
+    border: 1px solid #1e4925;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(19, 94, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(19, 94, 0, 0.3);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e4925;
+}
+
+.card-text {
+    font-size: 14px;
+}
