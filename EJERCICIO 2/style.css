@@ -100,7 +100,9 @@ header,footer{
 
 .imagen-contenedor h2 {
     position: absolute; 
-    text-align:center;
+    transform: transalate (-50%,-50%);
+    top:10%;
+    left:50%;
     color:#fff;
     font-size: 40px;
     text-transform: uppercase;
@@ -111,9 +113,9 @@ header,footer{
 
 .texto-imagen{
     position: absolute;
-    top: 180px;
-    left: 20px;
-    right: 20px;
+    top: 25%;
+    left: 10%;
+    right: 10%;
     background-color: #fff;
     padding: 20px;
     text-align: center;
