@@ -87,27 +87,27 @@ header,footer{
 .imagen-contenedor {
     width: 100%;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .imagen-contenedor img {
     width: 100%;
-    margin-bottom: 20px;
     height: auto;
+    display: block;
 }
 
 .imagen-contenedor h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 40px;
     text-transform: uppercase;
     font-family: "Orbitron", sans-serif;
     font-weight: 900;
     text-shadow: 3px 3px 0 #e60b0b;
-    margin-bottom: 20px;
+    z-index: 2;
 }
 
 .texto-imagen {
@@ -116,6 +116,9 @@ header,footer{
     text-align: center;
     border-radius: 15px;
     max-width: 80%;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
 }
 
 .texto-imagen p {
