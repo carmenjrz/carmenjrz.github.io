@@ -100,7 +100,7 @@ header,footer{
 
 .imagen-contenedor h2 {
     position: absolute; 
-    transform: transalate (-50%,-50%);
+    transform: translate (-50%,-50%);
     top:10%;
     left:50%;
     color:#fff;
