@@ -85,17 +85,23 @@ header,footer{
 ****************** IMAGEN CON TEXTO ENCIMA ***************/
 .imagen-contenedor {
     width: 100%;
-    position: relative;
     text-align: center;
 }
-.imagen-contenedor img {
+
+.contenedor-imagen {
+    position: relative;
+    width: 100%;
+}
+
+.contenedor-imagen img {
     width: 100%;
     height: auto;
     display: block;
 }
+
 .titulo-imagen {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -108,6 +114,7 @@ header,footer{
     margin: 0;
     padding: 0;
 }
+
 .texto-imagen {
     background-color: #fff;
     padding: 20px;
@@ -118,6 +125,7 @@ header,footer{
     position: relative;
     z-index: 1;
 }
+
 .texto-imagen p {
     font-size: 15px;
     font-family: sans-serif;
