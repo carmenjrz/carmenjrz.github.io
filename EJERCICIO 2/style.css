@@ -87,7 +87,9 @@ header,footer{
 .imagen-contenedor{
     width: 100%;
     position: relative;
-    
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .imagen-contenedor img{
@@ -98,10 +100,7 @@ header,footer{
 
 .imagen-contenedor h2 {
     position: absolute; 
-    transform: translate(-50%, -50%);
-    position: absolute; 
-    top: 10%;
-    left: 50%;
+    text-align:center;
     color:#fff;
     font-size: 40px;
     text-transform: uppercase;
