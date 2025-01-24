@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fce5e6 ;
+}
+
+.section-photo {
+    height: 100vh;
+    background: url('imagen\ header.png') no-repeat center center;
+    background-size: contain;
+}
+
+h1, h2, h3{
+    color: #ba1b1b ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p{
+    color: #721d1d ;
+}
+
+
+.card-body {
+    background-color: #721d1d;
+}
+
+.card-title{
+    color: #fce5e6;
+    text-transform: uppercase;
+}
+
+.card-text{
+    color: #fce5e6;
+}
+.bg-pasion{
+    background-color: #ba1b1b;
+}
+
+.bg-pasion h1,.bg-pasion h5,.bg-pasion p {
+    color: #fce5e6;
+}
+
+.bg-pasion h5 {
+    font-weight: bold;
+}
+
+
+.btn-pasion{
+    background-color: #ba1b1b;
+    color: #fce5e6;
+}
