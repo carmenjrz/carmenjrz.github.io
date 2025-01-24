@@ -84,45 +84,47 @@ header,footer{
 /***************************
 ****************** IMAGEN CON TEXTO ENCIMA ***************/
 
-.imagen-contenedor{
+.imagen-contenedor {
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
-.imagen-contenedor img{
+.imagen-contenedor img {
     width: 100%;
     margin-bottom: 20px;
     height: auto;
 }
 
 .imagen-contenedor h2 {
-    position: absolute; 
-    transform: translate (-50%,-50%);
-    top:10%;
-    left:50%;
-    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: "Orbitron", sans-serif; 
+    font-family: "Orbitron", sans-serif;
     font-weight: 900;
     text-shadow: 3px 3px 0 #e60b0b;
+    z-index: 2;
 }
 
-.texto-imagen{
+.texto-imagen {
     position: absolute;
-    top: 5%;
+    bottom: 10%;
     left: 10%;
     right: 10%;
     background-color: #fff;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
+    z-index: 1;
 }
 
-.texto-imagen p{
+.texto-imagen p {
     font-size: 15px;
     font-family: sans-serif;
     color: #770a0a;
